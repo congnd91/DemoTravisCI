@@ -14,7 +14,7 @@ namespace Test
 
     [TestCase(1,1,2)]
     [TestCase(1,2,3)]
-    [TestCase(2, 2, 3)]
+    [TestCase(2, 1, 3)]
     public void TestAdd(int a, int b, int kq)
     {
         Assert.AreEqual(c.Add(a, b), kq);
