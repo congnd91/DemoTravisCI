@@ -13,7 +13,7 @@ namespace Test
     DemoTravisCI.Calculator c = new DemoTravisCI.Calculator();
 
     [TestCase(1,1,2)]
-    [TestCase(2,2,3)]
+    [TestCase(1,2,3)]
     public void TestAdd(int a, int b, int kq)
     {
         Assert.AreEqual(c.Add(a, b), kq);
